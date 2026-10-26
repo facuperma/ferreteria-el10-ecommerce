@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import NavBar from './NavBar'
+import UserWidget from './UserWidget'
 
 export default function Header() {
   return (
@@ -10,7 +11,10 @@ export default function Header() {
           <span className="brand-mark">10</span>
           <span>Ferretería<span className="brand-light">El10</span><small>HERRAMIENTAS CON PASIÓN</small></span>
         </Link>
-        <p className="header-note">Como Diego: garra,<br />talento y trabajo.</p>
+        <div className="header-side">
+          <p className="header-note">Como Diego: garra,<br />talento y trabajo.</p>
+          <UserWidget />
+        </div>
       </div>
       <div className="nav-wrap"><div className="wrap"><NavBar /></div></div>
     </header>
