@@ -14,7 +14,7 @@ export default function Footer() {
           <p className="footer-contact">La Paternal, Buenos Aires, Argentina<br />hola@ferreteriael10.com · Lun a sáb, 8 a 19 h</p>
         </div>
         <div className="team-section">
-          <p className="eyebrow">TITULARES DE ARGENTINA · MÉXICO 1986</p>
+          <p className="eyebrow">CREADORES DE LA PÁGINA · MÉXICO 1986</p>
           <div className="team-grid">
             {team.map((person) => (
               <article className="team-card" key={person.initials}>
