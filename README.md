@@ -10,3 +10,5 @@ Tienda online de ferretería hecha con React. Tiene catálogo con filtro por cat
 - localStorage para persistir el carrito
 - ESLint
 - Deploy configurado para Netlify y Vercel
+
+Facundo Peralta Marello 
